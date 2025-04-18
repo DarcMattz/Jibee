@@ -50,6 +50,7 @@ export default function CustomCursor() {
   return isVisible ? (
     <>
       {/* Big Blur Shadow */}
+
       <div
         className="pointer-events-none fixed z-40 w-52 h-52 rounded-full bg-white opacity-70 blur-[150px] transform -translate-x-1/2 -translate-y-1/2 transition-transform duration-75"
         style={{
@@ -57,9 +58,8 @@ export default function CustomCursor() {
           left: `${position.x}px`,
         }}
       />
-
       {/* Actual Cursor Image */}
-      <img
+      {/* <img
         src={isPointer ? pointer : arrow}
         alt="custom cursor"
         className="pointer-events-none fixed top-0 left-0 z-50 w-10 h-10 transform -translate-x-1/2 -translate-y-1/2 transition-transform duration-75"
@@ -67,7 +67,7 @@ export default function CustomCursor() {
           top: `${position.y + 15}px`,
           left: `${position.x + 7}px`,
         }}
-      />
+      /> */}
     </>
   ) : null;
 }
