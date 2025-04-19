@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: #213448;
+  --color-secondary: #547792;
+  --color-text: #94b4c1;
+  --color-primary: #ecefca;
+}
+
 * {
   /* cursor: none; */
 }

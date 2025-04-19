@@ -1,6 +1,6 @@
-import About from "./sections/About.jsx";
-import Projects from "./sections/Projects.jsx";
-import Contact from "./sections/Contact.jsx";
+import About from "../pages/sections/About";
+import Projects from "../pages/sections/Projects";
+import Contact from "../pages/sections/Contact";
 
 const Content = () => {
   return (

@@ -3,7 +3,7 @@ const Projects = () => (
     {/* <h2 className="text-3xl font-semibold mb-4">Projects</h2> */}
     <ul className="space-y-4">
       <li>
-        <h3 className="text-xl font-bold">ATS Project</h3>
+        <h3 className="text-xl text-text font-bold">ATS Project</h3>
         <p>
           Applicant tracking system with notifications, export, and dashboard
           features.
