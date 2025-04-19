@@ -52,7 +52,7 @@ export default function CustomCursor() {
       {/* Big Blur Shadow */}
 
       <div
-        className="pointer-events-none fixed z-40 w-52 h-52 rounded-full bg-white opacity-70 blur-[150px] transform -translate-x-1/2 -translate-y-1/2 transition-transform duration-75"
+        className="pointer-events-none fixed z-40 w-52 h-52 rounded-full bg-[#94B4C1] opacity-70 blur-[150px] transform -translate-x-1/2 -translate-y-1/2 transition-transform duration-75"
         style={{
           top: `${position.y}px`,
           left: `${position.x}px`,
