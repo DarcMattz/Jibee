@@ -1,6 +1,6 @@
 const Projects = () => (
   <div>
-    <h2 className="text-3xl font-semibold mb-4">Projects</h2>
+    {/* <h2 className="text-3xl font-semibold mb-4">Projects</h2> */}
     <ul className="space-y-4">
       <li>
         <h3 className="text-xl font-bold">ATS Project</h3>
